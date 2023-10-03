@@ -1,0 +1,141 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+  * {
+      background-color: #101010;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .my-nav {
+      padding: 0;
+      margin: 0;
+      background-color: #101010;
+  }
+
+  .name {
+      color: #09EAFE;
+      margin: 0;
+      display: none;
+      font-style: normal;
+      font-size: small;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: 0.1vw;
+  }
+
+  .social-accounts {
+      padding: 0;
+      padding-right: 5vh;
+      display: flex;
+      justify-content: end;
+  }
+
+  .social-accounts img {
+      background-color: #09EAFE;
+      padding: 5px;
+      border-radius: 50%;
+      justify-content: end;
+  }
+
+  .social-accounts a {
+      margin: 0;
+      padding: 0.5vh;
+  }
+
+  .second-section {
+      padding: 0;
+      margin: 0;
+  }
+
+  .divisor-section {
+      width: 0vw;
+      height: 0vh;
+      margin: 0;
+      padding: 0;
+      border-left: 50vw solid transparent;
+      border-right: 50vw solid transparent;
+      border-top: 5vh solid #09EAFE;
+      background-color: #101010;
+  }
+
+  .description-section {
+    padding: 5vw;
+  }
+
+  .tittle h1 {
+      color: #EAF5FF;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      font-size: large;
+      font-weight: 400;
+      letter-spacing: 0.3vw;
+  }
+
+  .text {
+      color: #EAF5FF;
+  }
+
+  .text p {
+      font-family: 'Roboto', sans-serif;
+      font-size: medium;
+  }
+
+  .description-text {
+    padding-top: 5vh;
+  }
+
+  .gallery-section {
+    padding: 5vw
+  }
+
+  .gallery {
+    padding: 2vw;
+  }
+
+  .second-gallery {
+    padding: 2vw;
+  }
+
+  .gallery-slide {
+    padding-bottom: 2vh;
+  }
+
+  .pagination-section {
+    background-color: #101010;
+    color:#09EAFE;
+  }
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 5vh;
+    border-top-style: solid;
+    border-color: #09EAFE;
+    border-width: 1px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-accounts {
+    margin: 0px;
+    padding-right: 0.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-accounts img {
+    background-color: #09EAFE;
+    padding: 5px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+  @media screen and (min-width: 576px) {
+      .name {
+          display: block;
+      }
+  }
